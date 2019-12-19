@@ -8,6 +8,7 @@ source_dir = "../src/"
 build_dir = "../dist/"
 index_page_size = 10
 archives_page_size = 20
+fetch_remote_imgs = True
 enable_jsdelivr = {
     "enabled": False,
     "repo": ""
