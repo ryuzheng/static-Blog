@@ -11,7 +11,7 @@ categories:
   - 代码
 tags: 
   - PyInstaller
-banner: https://cdn.zhengzexin.com/pyinstaller.png/opt
+banner: https://cdn.zhengzexin.com/pyinstaller.png
 bannerascover: 1
 bannerStyle: 0
 excerpt: 
@@ -137,4 +137,4 @@ missing module named win32com.client._get_good_object_ - imported by win32com.cl
  - [pyinstaller简洁教程](http://legendtkl.com/2015/11/06/pyinstaller/)
 
 
-  [1]: https://cdn.zhengzexin.com/pyinstaller.png/opt
+  [1]: https://cdn.zhengzexin.com/pyinstaller.png
