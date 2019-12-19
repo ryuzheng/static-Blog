@@ -3,7 +3,7 @@
 """
 
 # For Maverick
-site_prefix = "/Blog-With-GitHub-Boilerplate/"
+site_prefix = "/static-Blog/"
 source_dir = "../src/"
 build_dir = "../dist/"
 index_page_size = 10
@@ -16,7 +16,7 @@ enable_jsdelivr = {
 # 站点设置
 site_name = "郑泽鑫的博客"
 site_logo = "${static_prefix}logo.png"
-site_build_date = "2019-12-18T16:51+08:00"
+site_build_date = "2013-07-31T13:07+08:00"
 author = "ryuzheng"
 email = "ryu@zhengzexin.com"
 author_homepage = "https://zhengzexin.com"
@@ -25,14 +25,9 @@ key_words = ['生物信息学', 'Geek', 'Python', '独立博客']
 language = 'zh-CN'
 external_links = [
     {
-        "name": "Maverick",
-        "url": "https://github.com/AlanDecode/Maverick",
-        "brief": "🏄‍ Go My Own Way."
-    },
-    {
-        "name": "三無計劃",
-        "url": "https://www.imalan.cn",
-        "brief": "熊猫小A的主页。"
+        "name": "</> with ❤️",
+        "url": "https://codewith.love",
+        "brief": "Ryu的主页。"
     }
 ]
 nav = [
@@ -55,19 +50,9 @@ nav = [
 
 social_links = [
     {
-        "name": "Twitter",
-        "url": "https://twitter.com/AlanDecode",
-        "icon": "gi gi-twitter"
-    },
-    {
         "name": "GitHub",
-        "url": "https://github.com/AlanDecode",
+        "url": "https://github.com/ryuzheng",
         "icon": "gi gi-github"
-    },
-    {
-        "name": "Weibo",
-        "url": "https://weibo.com/5245109677/",
-        "icon": "gi gi-weibo"
     }
 ]
 
