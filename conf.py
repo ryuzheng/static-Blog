@@ -10,6 +10,16 @@ index_page_size = 10
 archives_page_size = 20
 fetch_remote_imgs = True
 enable_jsdelivr = {"enabled": True, "repo": "ryuzheng/static-Blog@gh-pages"}
+valine = {
+    "enable": True,
+    "appId": "ValcujOd8RqQw9PnuSaVkWey-gzGzoHsz",
+    "appKey": "xHr7ovH5p80YCEyIi5QMAB9F",
+    "notify": "false",
+    "visitor": "false",
+    "recordIP": "true",
+    "serverURLs": None,
+    "placeholder": "欢迎留言"
+}
 
 # 站点设置
 site_name = "郑泽鑫的博客"
