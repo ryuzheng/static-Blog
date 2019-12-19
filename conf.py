@@ -25,7 +25,7 @@ key_words = ['生物信息学', 'Geek', 'Python', '独立博客']
 language = 'zh-CN'
 external_links = [
     {
-        "name": "</> with ❤️",
+        "name": "\<\/\> with ❤️",
         "url": "https://codewith.love",
         "brief": "Ryu的主页。"
     }
