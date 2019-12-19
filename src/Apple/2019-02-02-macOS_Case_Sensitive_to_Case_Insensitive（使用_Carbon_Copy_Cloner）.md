@@ -10,7 +10,7 @@ author: ryuzheng
 categories: 
   - Apple
 tags: 
-banner: https://cdn.zhengzexin.com/2019-02-08-CleanShot%202019-02-02%20at%2001.08.27@2x.png
+banner: ./assets/2019-02-08-CleanShot%202019-02-02%20at%2001.08.27@2x.png
 bannerascover: 1
 bannerStyle: 0
 excerpt: 
@@ -44,24 +44,24 @@ showTOC: 1
 流程如下：
  
   1. 下载 Carbon Copy Cloner（以下简称 CCC），安装，有30天的试用期，因此完全够用了； 
-   ![](https://cdn.zhengzexin.com/2019-02-08-CleanShot%202019-02-02%20at%2001.08.27@2x.png)
+   ![](./assets/2019-02-08-CleanShot%202019-02-02%20at%2001.08.27@2x.png)
 
   2. 使用 CCC 将 Mac 系统盘备份到一个大小写不敏感的分区（此步我是在旧电脑的硬盘上分出1个足够大小的大小写不敏感分区，读者使用移动硬盘或者足够大小的 U 盘也是可以的）
-   ![磁盘工具](https://cdn.zhengzexin.com/2019-02-08-%E7%A3%81%E7%9B%98%E5%B7%A5%E5%85%B7%202019-02-01%20at%2017.06.15.png)
-   ![Carbon Copy Cloner](https://cdn.zhengzexin.com/2019-02-08-Carbon%20Copy%20Cloner%202019-02-01%20at%2017.01.02.png)
+   ![磁盘工具](./assets/2019-02-08-%E7%A3%81%E7%9B%98%E5%B7%A5%E5%85%B7%202019-02-01%20at%2017.06.15.png)
+   ![Carbon Copy Cloner](./assets/2019-02-08-Carbon%20Copy%20Cloner%202019-02-01%20at%2017.01.02.png)
 
   3. 检查备份是否成功，下图可见大小写重名冲突只是少量文件，因此我推测可以成功
-   ![Carbon Copy Cloner](https://cdn.zhengzexin.com/2019-02-08-Carbon%20Copy%20Cloner%202019-02-01%20at%2017.01.37.png)
-   ![Carbon Copy Cloner](https://cdn.zhengzexin.com/2019-02-08-Carbon%20Copy%20Cloner%202019-02-01%20at%2017.01.59.png)
+   ![Carbon Copy Cloner](./assets/2019-02-08-Carbon%20Copy%20Cloner%202019-02-01%20at%2017.01.37.png)
+   ![Carbon Copy Cloner](./assets/2019-02-08-Carbon%20Copy%20Cloner%202019-02-01%20at%2017.01.59.png)
 
   4. 挂载备份盘（备份盘分区时命名为 Recovery HD）
   5. 在“系统偏好设置”中，进入“启动磁盘”，并选择Recovery HD，重新启动
-   ![系统偏好设置](https://cdn.zhengzexin.com/2019-02-08-%E7%B3%BB%E7%BB%9F%E5%81%8F%E5%A5%BD%E8%AE%BE%E7%BD%AE%202019-02-01%20at%2017.06.32.png)
-   ![系统偏好设置](https://cdn.zhengzexin.com/2019-02-08-%E7%B3%BB%E7%BB%9F%E5%81%8F%E5%A5%BD%E8%AE%BE%E7%BD%AE%202019-02-01%20at%2017.06.45.png)
+   ![系统偏好设置](./assets/2019-02-08-%E7%B3%BB%E7%BB%9F%E5%81%8F%E5%A5%BD%E8%AE%BE%E7%BD%AE%202019-02-01%20at%2017.06.32.png)
+   ![系统偏好设置](./assets/2019-02-08-%E7%B3%BB%E7%BB%9F%E5%81%8F%E5%A5%BD%E8%AE%BE%E7%BD%AE%202019-02-01%20at%2017.06.45.png)
 
   6. 以 Recovery HD 重启 mac 系统，登录进入（会发现克隆了一个一模一样的环境，CCC 真强大）
   7. 此时我们已经拥有了一个大小写不敏感的 Mac 系统了，启动迁移助理，成功完成数据迁移!（最后需要提醒，使用数据迁移，尽量使用雷电数据线或者网线进行数据传输，速度将会快很多，70G 的数据迁移，~~WIFI 下需要12h 以上~~，网线情况下我只使用了约2h）
-   ![](https://cdn.zhengzexin.com/2019-02-08-UNADJUSTEDNONRAW_thumb_9fb.jpg)
+   ![](./assets/2019-02-08-UNADJUSTEDNONRAW_thumb_9fb.jpg)
 
 
   ## 参考网页
