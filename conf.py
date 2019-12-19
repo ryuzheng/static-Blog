@@ -9,10 +9,7 @@ build_dir = "../dist/"
 index_page_size = 10
 archives_page_size = 20
 fetch_remote_imgs = True
-enable_jsdelivr = {
-    "enabled": False,
-    "repo": ""
-}
+enable_jsdelivr = {"enabled": True, "repo": "ryuzheng/static-Blog@gh-pages"}
 
 # 站点设置
 site_name = "郑泽鑫的博客"
@@ -26,28 +23,28 @@ key_words = ['生物信息学', 'Geek', 'Python', '独立博客']
 language = 'zh-CN'
 external_links = [
     {
-        "name": "\<\/\> with ❤️",
+        "name": "<\/> with ❤️",
         "url": "https://codewith.love",
         "brief": "Ryu的主页。"
     }
 ]
-nav = [
-    {
-        "name": "首页",
-        "url": "${site_prefix}",
-        "target": "_self"
-    },
-    {
-        "name": "归档",
-        "url": "${site_prefix}archives/",
-        "target": "_self"
-    },
-    {
-        "name": "关于",
-        "url": "${site_prefix}about/",
-        "target": "_self"
-    }
-]
+nav = [{
+    "name": "首页",
+    "url": "${site_prefix}",
+    "target": "_self"
+}, {
+    "name": "归档",
+    "url": "${site_prefix}archives/",
+    "target": "_self"
+}, {
+    "name": "关于",
+    "url": "${site_prefix}About/",
+    "target": "_self"
+}, {
+    "name": "友链",
+    "url": "${site_prefix}Friends/",
+    "target": "_self"
+}]
 
 social_links = [
     {
