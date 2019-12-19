@@ -21,7 +21,7 @@ author_homepage = "https://zhengzexin.com"
 description = "一个生信工作者的独立博客"
 key_words = ['生物信息学', 'Geek', 'Python', '独立博客']
 language = 'zh-CN'
-external_links = [{"name": r"</> with ❤️", "url": "https://codewith.love", "brief": "Ryu的主页。"}]
+external_links = [{"name": "<//> with ❤️", "url": "https://codewith.love", "brief": "Ryu的主页。"}]
 nav = [{
     "name": "首页",
     "url": "${site_prefix}",
