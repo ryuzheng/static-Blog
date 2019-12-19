@@ -10,7 +10,7 @@ author: ryuzheng
 categories: 
   - Geek
 tags: 
-banner: https://cdn.zhengzexin.com/youtube-dl.png
+banner: ./assets/youtube-dl.png
 bannerascover: 2
 bannerStyle: 0
 excerpt: 
@@ -53,7 +53,7 @@ youtube-dl -F https://www.youtube.com/watch?v=5UB4J_HEHZU #可以是视频链接
 
 返回类似这样的结果，其实是该视频的每种格式的详细情况——
 
-![youtube-dl](https://cdn.zhengzexin.com/youtube-dl.png)
+![youtube-dl](./assets/youtube-dl.png)
 
 第一列是格式的代号，第二列是文件格式，第三列是音频和视频分辨率等，第四列是视频/音频编码格式及文件大小等详情。
 
@@ -99,7 +99,7 @@ Subtitle Options:
 $ youtube-dl --list-subs https://www.youtube.com/watch?v=hpb-mH-yjLc&list=PL2mpR0RYFQsBiCWVJSvVAO3OJ2t7DzoHA
 #列出所有可供下载的字幕，效果见下图
 ```
-![](https://cdn.zhengzexin.com/youtubedl-subtitle.png)
+![](./assets/youtubedl-subtitle.png)
 
 ```bash
 $ youtube-dl --write-auto-sub --sub-lang en,zh-Hans --convert-subtitles srt https://www.youtube.com/playlist?list=PL2mpR0RYFQsBiCWVJSvVAO3OJ2t7DzoHA

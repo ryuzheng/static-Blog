@@ -12,7 +12,7 @@ categories:
 tags: 
   - ANNOVAR
   - 注释
-banner: https://cdn.zhengzexin.com/15248434546518.jpg
+banner: ./assets/15248434546518.jpg
 bannerascover: 1
 bannerStyle: 0
 excerpt: 
@@ -75,5 +75,5 @@ There should be 2.58M coding and 14.2M noncoding variants, after you run the com
  - [怎样让Annovar自建数据库运行飞起来（文末有彩蛋）](https://mp.weixin.qq.com/s?src=3×tamp=1524843103&ver=1&signature=X22z2y*tjX88rVER4Xflg19Z4agK5jB70OsTuCZAEJFVcUpIqu0mlPpGi-M1FBLadGxERxovSKUb0IEmuccKkQd-7SdeOS5PW1r8vmQYvTjmyOUassM-MFs4inokRf7U48VYLIcz-c2ZSmFrJtFjSmUNlM3H8wpO3wr3c1CujFE=)
 
 
-  [1]: https://cdn.zhengzexin.com/15248434546518.jpg
-  [2]: https://cdn.zhengzexin.com/11.34.16.png
+  [1]: ./assets/15248434546518.jpg
+  [2]: ./assets/11.34.16.png

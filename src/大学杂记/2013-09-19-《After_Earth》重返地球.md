@@ -11,7 +11,7 @@ categories:
   - 大学杂记
 tags: 
   - 电影
-banner: https://cdn.zhengzexin.com/2019-09-13-p2009281752.webp
+banner: ./assets/2019-09-13-p2009281752.webp
 bannerascover: 1
 bannerStyle: 0
 excerpt: 
@@ -21,7 +21,7 @@ showTOC: 0
 ---
 
 
-![重返地球](https://cdn.zhengzexin.com/2019-09-13-p2009281752.webp)
+![重返地球](./assets/2019-09-13-p2009281752.webp)
 
 [重返地球 After Earth (2013)](http://movie.douban.com/subject/6828823/)
 

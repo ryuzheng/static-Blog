@@ -36,8 +36,8 @@ showTOC: 1
 ##虚拟机启动报错
 
 [photos]
-![](https://cdn.zhengzexin.com/dccc5010b912c8fc96fa6e73ff039245d78821ce.jpg)
-![](https://cdn.zhengzexin.com/e957ae12c8fcc3ce95c9518d9145d688d53f20ce.jpg)
+![](./assets/dccc5010b912c8fc96fa6e73ff039245d78821ce.jpg)
+![](./assets/e957ae12c8fcc3ce95c9518d9145d688d53f20ce.jpg)
 [/photos]
 
 如果你的报错信息如图那样，还有类似以下的
@@ -60,13 +60,13 @@ The virtual machine 'boot2docker-vm' has terminated unexpectedly during startup 
 
 有时Virtualbox的虚拟机创建不成功是因为你的电脑上的Windows默认主题被破解了，错误码一般有个1970。
 
-![](https://cdn.zhengzexin.com/a94f3f381f30e92453b7c17048086e061d95f72c.jpg)
+![](./assets/a94f3f381f30e92453b7c17048086e061d95f72c.jpg)
 
 只需要还原主题就可以了，一般我们都是用*UniversalThemePatcher*来破解的，同样也可以用它来还原，只不过记得要下载有备份原本文件的版本，这里我提供一个版本以供使用，这个是有备份默认主题的。
 
-![](https://cdn.zhengzexin.com/d043ad4bd11373f0625e540da40f4bfbfbed043a.jpg)
+![](./assets/d043ad4bd11373f0625e540da40f4bfbfbed043a.jpg)
 
-[七牛云](https://cdn.zhengzexin.com/[主题破解及还原工具].zip)
+[七牛云](./assets/[主题破解及还原工具].zip)
 
 如果还有一些Virtualbox的错误的话，建议大家去看看[Virtualbox贴吧](http://tieba.baidu.com/f?kw=virtualbox&ie=utf-8)，上面有些主题提供了不错的解决方案。
 

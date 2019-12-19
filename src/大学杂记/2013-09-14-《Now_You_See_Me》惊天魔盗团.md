@@ -11,7 +11,7 @@ categories:
   - 大学杂记
 tags: 
   - 电影
-banner: https://cdn.zhengzexin.com/2019-09-13-p1943390205.webp
+banner: ./assets/2019-09-13-p1943390205.webp
 bannerascover: 1
 bannerStyle: 0
 excerpt: 
@@ -21,7 +21,7 @@ showTOC: 0
 ---
 
 
-![惊天魔盗团](https://cdn.zhengzexin.com/2019-09-13-p1943390205.webp)
+![惊天魔盗团](./assets/2019-09-13-p1943390205.webp)
 
 惊天魔盗团/Now You See Me [^1]
 
