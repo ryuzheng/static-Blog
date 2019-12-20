@@ -57,7 +57,9 @@ head_addon = r'''
 <link rel="dns-prefetch" href="//cdn.jsdelivr.net" />
 '''
 
-footer_addon = ''
+footer_addon = r'''
+<a no-style href="http://www.miitbeian.gov.cn/" target="_blank">粤 ICP 备 18056573 号</a>
+'''
 
 body_addon = r'''
 <script>
@@ -69,5 +71,27 @@ body_addon = r'''
            }
         }, 100);
     }
+</script>
+<script type="text/javascript">
+(function(){
+    var bp = document.createElement('script');
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https') {
+        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+    }
+    else {
+        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+    }
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+})();
+</script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-89607299-1" type="text/javascript"></script>
+<script type="text/javascript">
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-89607299-1');
 </script>
 '''
