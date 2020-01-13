@@ -1,8 +1,8 @@
 # static-Blog
 
-![如果显示failed，那么你看到的可能不是最新的](https://github.com/ryuzheng/static-Blog/workflows/Build/badge.svg)
+[![如果显示failed，那么你看到的可能不是最新的](https://github.com/ryuzheng/static-Blog/workflows/Build/badge.svg)](https://github.com/ryuzheng/static-Blog/actions)
 
-这是我的静态博客的源代码，使用Maverick + Github Pages进行搭建，如果你也想搭建一个类似的博客，请参考[完全使用 GitHub 写博客](https://blog.imalan.cn/archives/blog-with-github/)。
+这是我的静态博客的源代码，使用熊猫小A的Maverick + Github Pages进行搭建，如果你也想搭建一个类似的博客，请参考[完全使用 GitHub 写博客](https://blog.imalan.cn/archives/blog-with-github/)。
 
 ---
 
