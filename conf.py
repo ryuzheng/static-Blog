@@ -3,7 +3,7 @@
 """
 
 # For Maverick
-site_prefix = "https://zhengzexin.com"
+site_prefix = "/"
 source_dir = "../src/"
 build_dir = "../dist/"
 template = {
@@ -20,6 +20,7 @@ for_manual_build_trigger = 2
 enable_jsdelivr = {"enabled": True, "repo": "ryuzheng/static-Blog@gh-pages"}
 valine = {
     "enable": True,
+    "el": '#vcomments',
     "appId": "ValcujOd8RqQw9PnuSaVkWey-gzGzoHsz",
     "appKey": "xHr7ovH5p80YCEyIi5QMAB9F",
     "visitor": True,
