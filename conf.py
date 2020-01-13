@@ -3,20 +3,14 @@
 """
 
 # For Maverick
-site_prefix = "/"
+site_prefix = "https://zhengzexin.com/"
 source_dir = "../src/"
 build_dir = "../dist/"
-template = {
-    "name": "Galileo",
-    "type": "git",
-    "url": "https://github.com/ryuzheng/Maverick-Theme-Galileo.git",
-    "branch": "old_style"
-}
+template = "Galileo"
 index_page_size = 10
 archives_page_size = 20
 fetch_remote_imgs = False
 category_by_folder = True
-for_manual_build_trigger = 2
 enable_jsdelivr = {"enabled": True, "repo": "ryuzheng/static-Blog@gh-pages"}
 valine = {
     "enable": True,
