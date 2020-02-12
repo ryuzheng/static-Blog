@@ -59,7 +59,7 @@ head_addon = r'''
 '''
 
 footer_addon = r'''
-<a no-style href="http://www.miitbeian.gov.cn/" target="_blank">粤 ICP 备 18056573 号</a>
+<a no-style href="http://www.beian.miit.gov.cn" target="_blank">粤 ICP 备 18056573 号</a>
 '''
 
 body_addon = r'''
