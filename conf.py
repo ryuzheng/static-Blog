@@ -32,7 +32,11 @@ author_homepage = "https://zhengzexin.com"
 description = "一个生信工作者的独立博客"
 key_words = ['生物信息学', 'Geek', 'Python', '独立博客']
 language = 'zh-CN'
-external_links = [{"name": "< &frasl; > with ❤️", "url": "https://codewith.love", "brief": "Ryu的主页。"}]
+external_links = [{"name": "< &frasl; > with ❤️", "url": "https://codewith.love", "brief": "我的主页。"},{
+    "name": "好物分享",
+    "url": "https://www.yuque.com/ryuz/shares",
+    "brief": "收集值得分享的网站、文章、应用等。"
+}]
 nav = [{
     "name": "首页",
     "url": "${site_prefix}",
