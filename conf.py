@@ -6,7 +6,12 @@
 site_prefix = "https://zhengzexin.com/"
 source_dir = "../src/"
 build_dir = "../dist/"
-template = "Galileo"
+template = {
+    "name": "Galileo",
+    "type": "git",
+    "url": "https://github.com/ryuzheng/Maverick-Theme-Galileo.git",
+    "branch": "custom_latest"
+}
 index_page_size = 10
 archives_page_size = 20
 fetch_remote_imgs = False
