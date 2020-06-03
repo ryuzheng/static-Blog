@@ -29,13 +29,13 @@ showTOC: 0
 
 比如，我们用编号为`COSM476`的`BRAF:V600E`来举例：
 
-![](./assets/CleanShot 2019-06-30 at 20.45.05@2x.png)
+![](./assets/CleanShot%202019-06-30%20at%2020.45.05@2x.png)
 
 可见，VEP确实注释了多个COSMIC ID，但只有`COSM476`才是正确的。What？这是怎么发生的。
 
 于是Ryu就去查VEP的文档，终于被我发现了原因。VEP注释是可以注释COSMIC的记录的，但是这个注释，主要是根据染色体坐标而进行的`co-located variants`注释，没有判断这个突变是什么碱基变化的。
 
-![](./assets/CleanShot 2019-06-30 at 20.49.41@2x.png)
+![](./assets/CleanShot%202019-06-30%20at%2020.49.41@2x.png)
 
 那么为什么要这么做呢？VEP明显是可以实现分辨碱基突变的功能的。援引VEP的原文，原来Ensembl并没有COSMIC、HGMD等数据库的精细到碱基突变的使用许可协议，因此这些数据能够被注释，但是却是换了一个方法，只能精细到染色体位置的层级。
 

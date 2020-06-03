@@ -27,29 +27,29 @@ Transvar 是 MD Anderson 开发的一款多种方向的突变/坐标转换工具
 
 举个实际例子，肺癌中的EGFR基因突变，在 COSMIC 上见到的一个突变的描述网页如下，我们可以看到id 为`COSM6223`的突变，是一个 EGFR 基因上的缺失突变，对应的 cDNA 上的突变为`c.2235_2249del15`，而氨基酸突变为`p.E746_A750delELREA`，基因组坐标则为`7:55242465..55242479`；那么这个突变是否属于 EGFR 19号外显子缺失呢？缺失的序列是哪些？
 
-![](./assets/2019-03-16-CleanShot 2019-02-11 at 00.27.17@2x.png)
+![](./assets/2019-03-16-CleanShot%202019-02-11%20at%2000.27.17@2x.png)
 
 ## 网页版使用
 
 首先我们打开 Transvar 的网页版：[https://bioinformatics.mdanderson.org/transvar/](https://bioinformatics.mdanderson.org/transvar/)
 
-![](./assets/2019-03-16-CleanShot 2019-02-11 at 00.14.17@2x.png)
+![](./assets/2019-03-16-CleanShot%202019-02-11%20at%2000.14.17@2x.png)
 
 ### 基因组正向注释
 
 首先我们来尝试从基因组正向注释到 cDNA 及氨基酸坐标上。勾选`Forward Annotation: gDNA`，我们可以看见示例输入如下。
 
-![](./assets/2019-03-16-CleanShot 2019-02-11 at 00.38.49@2x.png)
+![](./assets/2019-03-16-CleanShot%202019-02-11%20at%2000.38.49@2x.png)
 
 于是如上图，我们勾选`GRCh37/hg19`，并且勾选下面的`RefSeq`（需要其他数据库的可以都勾选上），在右侧的输入框中输入`chr7:g.55242465_55242479del`，点击`Submit`提交。
 
 然后我们就能看到结果如下，
 
-![](./assets/2019-03-16-CleanShot 2019-02-11 at 00.41.17@2x.png)
+![](./assets/2019-03-16-CleanShot%202019-02-11%20at%2000.41.17@2x.png)
 
 如下图，`XM_`开头的为预测转录本，我们只看`NM_005228`的结果，该突变确实为 EGFR 19号外显子缺失，并且缺失的序列为`AGGAATTAAGAGAAGC>A`。滑动滚动条，我们还能看到更多的注释结果。
 
-![](./assets/2019-03-16-CleanShot 2019-02-11 at 00.42.06@2x.png)
+![](./assets/2019-03-16-CleanShot%202019-02-11%20at%2000.42.06@2x.png)
 
 ### cDNA 反向注释
 
@@ -57,25 +57,25 @@ Transvar 是 MD Anderson 开发的一款多种方向的突变/坐标转换工具
 
 如下图，勾选`Reverse Annotation: cDNA`，保持勾选`GRCh37/hg19`以及下面的`RefSeq`，根据示例提示，输入`EGFR:c.2235_2249del`，Submit。
 
-![](./assets/2019-03-16-CleanShot 2019-02-12 at 01.40.24@2x.png)
+![](./assets/2019-03-16-CleanShot%202019-02-12%20at%2001.40.24@2x.png)
 
 如下图我们可以看到结果与之前的基因组正向注释的输入、结果都是一致的。
 
-![](./assets/2019-03-16-CleanShot 2019-02-12 at 01.41.18@2x.png)
+![](./assets/2019-03-16-CleanShot%202019-02-12%20at%2001.41.18@2x.png)
 
 ### 氨基酸反向注释
 
 最后我们来尝试一下通过氨基酸突变的反向注释，当我们获得以氨基酸水平的突变表示时，我们可以通过 Transvar，轻松地转换成基因组/cDNA 水平的突变。如下图勾选`Reverse Annotation: Protein`，同样保持勾选`GRCh37/hg19`以及下面的`RefSeq`，根据示例提示，输入`EGFR:p.E746_A750delELREA`，Submit。
 
-![](./assets/2019-03-16-CleanShot 2019-02-12 at 01.45.00@2x.png)
+![](./assets/2019-03-16-CleanShot%202019-02-12%20at%2001.45.00@2x.png)
 
 如下图，结果毫无疑问是一致的。
 
-![](./assets/2019-03-16-CleanShot 2019-02-12 at 01.54.30@2x.png)
+![](./assets/2019-03-16-CleanShot%202019-02-12%20at%2001.54.30@2x.png)
 
 另外，当我们输入为`EGFR:p.746_750`时，如下图我们看到 Transvar 依然可以给我们转换出这个密码子的基因组水平的坐标范围以及 cDNA 水平的坐标范围，这在我们需要通过密码子来查找对应的基因组范围时特别有用。
 
-![](./assets/2019-03-16-CleanShot 2019-02-12 at 01.56.34@2x.png)
+![](./assets/2019-03-16-CleanShot%202019-02-12%20at%2001.56.34@2x.png)
 
 ## 终端版使用
 
