@@ -52,7 +52,7 @@ showTOC: 1
 
   3. 检查备份是否成功，下图可见大小写重名冲突只是少量文件，因此我推测可以成功
    ![Carbon Copy Cloner](./assets/2019-02-08-Carbon%20Copy%20Cloner%202019-02-01%20at%2017.01.37.png)
-   ![Carbon Copy Cloner](./assets/2019-02-08-Carbon%20Copy%20Cloner%202019-02-01%20at 17.01.59.png)
+   ![Carbon Copy Cloner](./assets/2019-02-08-Carbon%20Copy%20Cloner%202019-02-01%20at%2017.01.59.png)
 
   4. 挂载备份盘（备份盘分区时命名为 Recovery HD）
   5. 在“系统偏好设置”中，进入“启动磁盘”，并选择Recovery HD，重新启动
